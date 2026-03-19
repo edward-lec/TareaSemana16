@@ -75,6 +75,9 @@ class AppTkinter:
         # Evento: cuando el usuario selecciona una fila de la tabla
         self.tabla.bind("<<TreeviewSelect>>", self.seleccionar_registro)
 
+        # Cargar datos iniciales en la tabla
+        self.actualizar_tabla()
+
     def run(self):
         """
         Método que inicia la ejecución de la aplicación.
