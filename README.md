@@ -66,7 +66,7 @@ lista_tareas_app/
 Se implementaron eventos de teclado mediante `.bind()` para mejorar la interacción:
 
 * **Enter** → Agregar tarea
-* **C** → Marcar tarea como completada
+* **c** → Marcar tarea como completada con la c minúscula
 * **Delete / D** → Eliminar tarea
 * **Escape** → Cerrar la aplicación
 
